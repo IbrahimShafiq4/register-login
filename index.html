@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Register</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main d-block">
+        <input type="checkbox" id="chk">
+        <div class="login">
+            <form class="form">
+                <label for="chk">Log in</label>
+                <input type="email" name="email" class="input email" placeholder="Enter Your Email">
+                <input type="password" name="pswd" class="input pswd" placeholder="Enter your Password">
+                <p class="exsited fw-semibold d-none my-0 mx-auto text-warning"></p>
+                <a class="button text-decoration-none">Log in</a>
+            </form>
+        </div>
+        <div class="register">
+            <form class="form">
+                <label for="chk">Register</label>
+                <input type="text" name="txt" class="input txt" placeholder="Enter Your username">
+                <input type="email" name="email" class="input email" placeholder="Enter Your Email">
+                <input type="password" name="pswd" class="input pswd" placeholder="Enter your Password">
+                <p class="exsited fw-semibold d-none my-0 mx-auto text-success"></p>
+                <a class="button text-decoration-none">Register</a>
+            </form>
+        </div>
+    </div>
+
+    <div class="mainD d-none position-absolute top-0 start-0 w-100 vh-100">
+        <nav>
+            <div class="px-5 py-2 container text-white d-flex justify-content-between align-items-center">
+                <h3>Smart Login</h3>
+                <a class="logout py-1 px-3 text-decoration-none text-white">Logout</a>
+            </div>
+        </nav>
+    
+        <div class="container text-center w-50 position-absolute top-50 start-50 translate-middle p-5">
+            <p class="fs-3"></p>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
